@@ -7,7 +7,7 @@ public class Ex07_02 {
         while (i < 11) {
 
             hap += i;
-            i++;
+            i++; //조건 값에 변화를 주기 위해
         }
         System.out.printf("1에서 10까지의 합은 : %d ", hap);
     }
